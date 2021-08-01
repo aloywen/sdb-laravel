@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#app {
+    background-color: rgba(68, 115, 157) !important;
+}
+a.disabled {
+    pointer-events: none;
+    cursor: default;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+
+@media screen and ( max-width: 620px ) {
+    .side {
+        transform: translateX(-100%);
+    }
+}
